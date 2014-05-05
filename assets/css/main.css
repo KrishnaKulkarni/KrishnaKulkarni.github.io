@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 35px;
+	font-size: 25px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -258,3 +258,37 @@ bt {
 	margin: auto;
 	font-size: 16px;
 }*/
+.label-container {
+	display: block;
+/*	border: 1px solid green;*/
+	text-align: center;
+	margin-right: 70px;
+}
+
+.label-container label{
+	font-size: 25px;
+	text-align: center;
+	
+}
+.col-lg-4 {
+/*	border: 1px solid red;*/
+}
+
+
+#ww{
+	padding-bottom: 20px;
+}
+
+/*#ww a.email {
+	display: inline;
+	font-weight: inherit;
+	font: inherit;
+	font-size: inherit;
+	color: #7b7b7b;
+}*/
+a.email:hover,
+a.email:focus{
+    color: #1abc9c;
+    text-decoration: none;
+    outline: 0;
+}
