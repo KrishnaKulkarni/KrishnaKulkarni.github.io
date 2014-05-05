@@ -90,13 +90,16 @@ a:after {
 }
 
 .navbar-inverse {
-	padding-bottom: 70px;
-	padding-top: 70px;
+/*	padding-bottom: 70px;
+	padding-top: 70px;*/
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 .navbar-inverse {
-	background-color: #1abc9c;
-	border-color: #16a085;
+/*	background-color: #1abc9c;*/
+	background-color: #29570F;
+	border-color: #3D891A;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -213,6 +216,7 @@ bt {
     position:relative; 
     overflow:hidden; 
     background:transparent url(../img/loader.gif) no-repeat center;
+						width: 80%;
 }
 
 
@@ -240,3 +244,17 @@ bt {
 	font-size: 40px;
 	color: #1abc9c;
 }
+
+#prof-pic {
+	border: 1px solid #ccc;
+	border-radius: 100px;
+}
+
+.col-lg-4 p {
+	width: 80%;
+}
+/*
+.navbar > .container .subtitle {
+	margin: auto;
+	font-size: 16px;
+}*/
