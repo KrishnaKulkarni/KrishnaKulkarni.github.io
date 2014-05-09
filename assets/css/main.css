@@ -228,6 +228,9 @@ bt {
         background-image:url(../img/zoom.png);
         background-repeat:no-repeat;
         background-position:center;
+				/*THIS MY SOLUTION TO THE PROBLEM OF OVERSIZED HOVER-SCREENS; PROBABLY A BETTER SOLUTION OUT THERE*/
+				width: 268px;
+				margin: auto;
     }
 
 .zoom2 {
